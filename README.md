@@ -8,7 +8,7 @@ Learn Basic Angular Concepts by creating a searchable, filterable list of friend
 ###Step 1: Install Angular
 The angular script has already been included in the project.
 In step one you will create an app variable and your FriendController. We have already provided the appropriate files and outlined a structure for you.
-* Create an app variable for your angular app in app.js (this should be one line). You can name your app whatever your want
+* Create an app variable for your angular app in app.js (this should be one line). You can name your app whatever you want
 * Create a FriendController in the FriendController.js file
 * Add the ng-app and ng-controller attributes to index.html in order to attach your controller to your html
 * Test your controller by adding a scope variable called 'test' with the value 'Hello World' and then bind the variable in index.html {{test}} to see if your controller is working
@@ -38,6 +38,7 @@ We will also create a location search input.
 
 ###Step 6: Make the list sortable
 * Create two variables in your friend controller, one for the attribute to sort on and another boolean for an ascending vs descending sort
+* Add a value="" to each item in the list of options. This value needs to equal the value of the property, on each object, in your array that you want to sort by
 * Bind the variables to their respective select elements using ng-model
 * Add the ordering logic to your filter
 
